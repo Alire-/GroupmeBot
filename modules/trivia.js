@@ -119,7 +119,7 @@ function startQuiz(){
 function loadQuestions(){
     var fs = require("fs");
     var path = require("path");
-    var filepath = path.join(__dirname, "ffxivquestions.txt");
+    var filepath = path.join(__dirname, "triviaquestions.txt");
     questionList = fs.readFileSync(filepath).toString().split('\n');
 }
 
